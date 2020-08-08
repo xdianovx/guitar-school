@@ -21,3 +21,50 @@ a {
     text-decoration: none !important;
   }
 }
+
+
+@media screen and (min-width: 100px) {
+  .button {
+    font-family: 'Proxima';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130.69%;
+    background: none;
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 280px;
+    padding: 18px 28px;
+    color: #ffffff;
+    border: 3px solid #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    //transform: none;
+    border: 2px solid #FFFFFF;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .button {
+    bottom: 155px;
+    transform: translateX(6%);
+    border: 2px solid #FFFFFF;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
