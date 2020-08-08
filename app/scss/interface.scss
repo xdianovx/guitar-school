@@ -2,3 +2,22 @@ body {
   font-family: 'Proxima';
   font-weight: 400;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
