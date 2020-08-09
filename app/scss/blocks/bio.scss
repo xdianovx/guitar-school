@@ -1,0 +1,36 @@
+@media screen and (min-width: 100px) {
+  .bio__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 768px) {
+  .bio__wrap {
+    flex-direction: row;
+    margin-top: 140px;
+  }
+
+  .bio__left {
+    width: 430px;
+  }
+
+  .bio__right {
+    width: 685px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

@@ -7,6 +7,10 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  margin: 0;
+  margin-bottom: 0 !important;
+}
 
 li {
   list-style: none;
@@ -25,7 +29,10 @@ a {
 
 
 @media screen and (min-width: 100px) {
-
+  img {
+    height: auto;
+    width: 100%;
+  }
   .button {
     font-family: 'Proxima';
     font-weight: 600;
@@ -52,6 +59,11 @@ a {
     //transform: none;
     border: 2px solid #FFFFFF;
     font-size: 16px;
+  }
+
+  img {
+    height: auto;
+    width: auto;
   }
 
 }
