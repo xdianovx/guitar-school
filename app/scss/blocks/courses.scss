@@ -1,0 +1,80 @@
+@media screen and (min-width: 100px) {
+  .courses {
+
+  }
+.courses__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 128.19%;
+  text-transform: uppercase;
+  color: #F90031;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/mediator.svg);
+    width: 68px;
+    height: 70px;
+    z-index: -1;
+    top: -22px;
+    left: -28px;
+  }
+}
+  .courses__left {
+    padding-top: 55px;
+    p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 113.19%;
+      color: #FFFFFF;
+      width: 260px;
+    }
+  }
+  .courses__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courses__button {
+    position: static;
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (min-width: 540px) {
+
+}
+
+@media screen and (min-width: 768px) {
+  .courses__wrap {
+    flex-direction: row;
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+
+  .courses__title {
+    font-size: 16px;
+    margin-top: 118px;
+    &:before {
+      top: -32px;
+    }
+  }
+
+  .courses__left {
+    p {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

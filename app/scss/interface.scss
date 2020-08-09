@@ -1,6 +1,7 @@
 body {
   font-family: 'Proxima';
   font-weight: 400;
+  background-color: #151316 !important;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
 
 
 @media screen and (min-width: 100px) {
+
   .button {
     font-family: 'Proxima';
     font-weight: 600;
@@ -51,6 +53,7 @@ a {
     border: 2px solid #FFFFFF;
     font-size: 16px;
   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -60,6 +63,8 @@ a {
     border: 2px solid #FFFFFF;
     font-size: 16px;
   }
+
+
 }
 
 @media screen and (min-width: 1200px) {
